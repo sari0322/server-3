@@ -72,6 +72,11 @@
 
       const obj = await res.json();
       console.log(JSON.stringify(obj, null, 2));
+
+      file = false;
+      image = false;
+      input.value = '';
+      document.querySelector('img').src = '';
     }
   </script>
 </html>
